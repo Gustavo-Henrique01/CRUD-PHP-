@@ -1,0 +1,133 @@
+
+  
+  
+  .caixa {
+        display: flex;
+        align-items: center;
+        margin-top: 3rem;
+        justify-content: space-evenly;
+        margin-top: 2.5rem;
+    }
+    .caixa span  {
+        max-width: 45% ;
+        font-size: 0.8rem ;
+    }
+
+    .profile-image {
+        text-align: center;
+        margin-right: 1rem; /* Adiciona um espaço à direita */
+    }
+
+    .profile-image input[type="file"] {
+        display: none;
+    }
+
+    .profile-figure {
+        position: relative;
+        width: 25vh;
+        height: 25vh;
+    }
+
+    .profile-avatar {
+        cursor: pointer;
+        width: 25vh;
+        height: 25vh;
+        box-sizing: border-box;
+        border-radius: 10%;
+        border: 2px solid transparent;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+        transition: all ease-in-out .3s;
+    }
+
+    .profile-avatar:hover {
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    .profile-figcaption {
+        cursor: pointer;
+        position: absolute;
+        top: 0px;
+        width: inherit;
+        height: inherit;
+        border-radius: 10%;
+        opacity: 0;
+        background-color: rgba(0, 0, 0, 0);
+        transition: all ease-in-out .3s;
+    }
+
+    .profile-figcaption:hover {
+        opacity: 1;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .profile-figcaption > img {
+        margin-top: 32.5px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .profile-form {
+        position: relative;
+    }
+
+    .edit-icon {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    .margin-right {
+        margin-right: 1rem; 
+    }
+.container {
+
+    padding: 0.5;
+}
+
+
+
+.table-container {
+    max-width: 100%; 
+    overflow-x: auto; 
+   
+}
+
+
+
+.tabela-pedido {
+      
+        width: 60%;
+        
+        border-spacing: 0;
+        box-shadow: 0 2px 15px rgba(64, 64, 64, .7);
+       
+        
+    }
+
+    .tabela-pedido td,
+    .tabela-pedido th {
+        padding: 15px 20px;
+        text-align: center;
+    }
+
+    .tabela-pedido th {
+        background-color: black;
+        color: #fafafa;
+        font-family: 'Open Sans', Sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+
+    .tabela-pedido tr {
+      
+        background-color: #fafafa;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .tabela-pedido tr:nth-child(even) {
+        background-color: #eeeeee;
+    }
+
+
+ 
